@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TL;DR
+
+
+1. run `npm i` in the project directory to install dependencies.
+2. Get your [Sky Scraper API key](https://rapidapi.com/apiheya/api/sky-scrapper).
+3. follow the following steps to add it to .env file:
+   1. Copy your API key.
+   2. run `cp .env.sample .env` in the project directory.
+   3. paste your API key after `REACT_APP_RAPIDAPI_KEY=` in .env file.
+4. run the project using the command `npm start`.
+
 ## Available Scripts
 
 In the project directory, you can run:
